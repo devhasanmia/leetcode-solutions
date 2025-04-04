@@ -1,31 +1,31 @@
 console.clear()
-
-
-
-
-
-// Object is a collection of key value pairs
-
-// Object Literals
-// let obj = {
-//     name: "MD. HASAN MIA",
-//     age: 18,
-//     greet(){
-//         return `Good morning ${this.name}`
-//     }
+// type Counter = {
+//     increment: () => number,
+//     decrement: () => number,
+//     reset: () => number,
 // }
 
-// function calc(val){
-//     const obj = {
-//         add(val1){
-//             let a = val + val1
-//             return a
+// function createCounter(init: number): Counter {
+//     let count = init;
+//     return {
+//         increment() {
+//             return count = count + 1
+//         },
+//         decrement() {
+//            return count = count - 1
+//         },
+//         reset() {
+//             return count = init
 //         },
 //     }
-//     return obj
-// }
+// };
 
 
 
 
-// console.log(calc(5).add(3))
+/**
+ * const counter = createCounter(5)
+ * counter.increment(); // 6
+ * counter.reset(); // 5
+ * counter.decrement(); // 4
+ */
