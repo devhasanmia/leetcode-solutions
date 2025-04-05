@@ -8,7 +8,6 @@ var createHelloWorld = function() {
 };
 
 
-console.log(createHelloWorld("sdfs"))
 /**
  * const f = createHelloWorld();
  * f(); // "Hello World"
