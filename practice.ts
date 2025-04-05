@@ -1,11 +1,11 @@
-function map(arr: number[], fn: (n: number, i: number) => number): number[] {
-    let result = [];
-    for (let i = 0; i < arr.length; i++) {
-        result.push(fn(arr[i], i))
-    }
-    return result
-};
+// type Fn = (n: number, i: number) => any
 
-function plusone(n: number) { return n + 1; }
-
-console.log(map([1, 2, 3], plusone));
+// function filter(arr: number[], fn: Fn): number[] {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (fn(arr[i], i)) {
+//             result.push(arr[i])
+//         }
+//     }
+//     return result
+// };
